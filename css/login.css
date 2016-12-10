@@ -1,0 +1,76 @@
+@font-face {
+    font-family: roboto_medium;
+    src: url(fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: roboto_light;
+    src: url(fonts/roboto/Roboto-Light.ttf);
+}
+html{
+    display: table;
+    margin: auto;
+    height: 100%;
+    font-family: roboto_light;
+}
+body{
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+.cyan {
+    background-color: #00bcd4 !important;
+}
+.login-form {
+    width: 280px;
+}
+form p:last-child {
+    margin-bottom: 0;
+}
+.login-form-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+.center, .center-align {
+    text-align: center;
+}
+.margin {
+    margin: 0 !important;
+}
+
+.login-text {
+    margin-top: -6px;
+    margin-left: -6px !important;
+}
+.medium-small {
+    font-size: 0.9rem;
+}
+label
+{
+	letter-spacing: 1px;
+}
+
+@media only screen and (min-width: 1200px)
+{
+html {
+    font-size: 15px;
+}
+}
+@media only screen and (min-width: 992px){
+html {
+    font-size: 14.5px;
+}
+}
+@media only screen and (min-width: 0){
+html {
+    font-size: 14px;
+
+}
+
+}
+/*@media only screen and (max-width: 767px)
+{
+	.login-form {
+     width: 100%;
+	}
+}*/

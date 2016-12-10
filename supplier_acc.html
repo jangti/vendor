@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Vendor app</title>
+	<!-- lib : Materialize css -->
+	<link rel="stylesheet" type="text/css" href="lib/css/materialize.css">
+	<!-- lib : Icon font -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- custom css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+  <div class="row">
+    <div class="col col s12 m6 offset-m3">
+      <div class="row">
+        <div class="col col s12 m10 offset-m1">
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header supllier-card-item-1">
+                <img src="img/img.jpg">
+                <span>Supplies</span>
+                <img src="img/cofee.png">
+                <button class="waves-effect waves-light btn dropdown-button supplier-details-btn" data-hover="true" data-activates='supplier-details'>Details
+                  <div id='supplier-details' class='dropdown-content'>
+                    <p>The Details Goes Here</p>
+                  </div>
+                </button>
+                <button class="waves-effect waves-light btn">Chat</button>
+              </div>
+              <div class="collapsible-body supllier-card-chat">
+                <p>The Chat window goes here</p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">filter_drama</i>
+              </div>
+              <div class="collapsible-body">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">
+                <i class="material-icons">filter_drama</i>
+              </div>
+              <div class="collapsible-body">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+	<!-- lib : Juery -->
+	<script type="text/javascript" src="lib/js/jquery.js"></script>
+	<!-- lib : Materialize js -->
+	<script type="text/javascript" src="lib/js/materialize.js"></script>
+</body>
+</html>
