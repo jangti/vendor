@@ -50,3 +50,57 @@ li.disabled > span
 	width: 498px !important;
 	left: 403px !important;
 }
+.supllier-card-item-2{
+	padding:10px;
+}
+.inline-display{
+	display: inline-block;
+	width: 10%;
+	margin-left: 20px;
+	text-align: center;
+}
+.supllier-card-item-2 span:first-child{
+	margin-left: 1%;
+}
+.sup-total-item{
+	width: 19% !important;
+	font-size: 18px;
+}
+.sup-details-item{
+	width: auto;
+	margin-top: -4px;
+}
+.equal-width-3{
+	display: inline-block;
+	width: 33.33%;
+	text-align: center;
+}
+.equal-width-3>img
+{
+	width: 35px;
+	height: 35px;
+}
+.text-center{
+	text-align: center;
+}
+.collapsible-body{
+	padding:10px;
+}
+.supplier-acc2 p{
+	padding: 0;
+}
+.supllier-card-item-3{
+	padding: 10px;
+}
+.supllier-card-item-3 .row{
+	margin:0;
+}
+.supllier-card-item-3 h3.header-margin{
+	font-size: 20px;
+	margin: 0px;
+	line-height: 2em;
+}
+.supllier-card-item-3 button{
+	margin-top: -5px;
+	margin-left: 6px;
+}
